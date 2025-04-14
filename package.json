@@ -1,0 +1,16 @@
+{
+  "name": "game-project",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsc",                            
+    "start-server": "node src/server/server.js",       
+    "start": "npm run build && npm run start-server && npm run start-client" 
+  },
+  "dependencies": {
+    "ws": "^8.5.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.4",
+    "@types/ws": "^8.5.0"
+  }
+}

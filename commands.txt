@@ -1,0 +1,4 @@
+compile server.ts:
+    tsc src/server/server.ts
+run server:
+    node src/server/server.js
