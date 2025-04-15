@@ -1,4 +1,4 @@
-compile server.ts:
-    tsc src/server/server.ts
-run server:
-    node src/server/server.js
+update everything and run server:
+    npm start
+run client:
+    python -m http.server 8080 --directory src/client
